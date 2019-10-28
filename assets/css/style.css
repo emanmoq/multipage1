@@ -434,7 +434,8 @@ background-color:#45aed6;
     background-size:cover;
     background-repeat:no-repeat;
     padding:100px 0;
-    color:white
+    color:white;
+    opacity: .8;
 }
 #counter .sectionTitle{
     color:white;
@@ -448,6 +449,7 @@ background-color:#45aed6;
     color:white;
     border:3px solid white;
     border-radius: 50%;
+    font-size:28px;
 }
 #counter strong{
 display: block;
@@ -520,6 +522,9 @@ margin:25px 0;
     background: #45aed6;
     color: #fff;
     border: 0;
+}
+.PriceBox.colored h2{
+    color:white;
 }
 .PriceBox.colored .topPrice{
     background-image: linear-gradient(45deg, #2caab3  0%, #45aed6 100%);
